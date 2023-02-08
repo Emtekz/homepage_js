@@ -34,7 +34,7 @@
 .portfolio .images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
+    gap: 0.2rem;
 
     height: var(--image-sides);
     min-width: 100vw;
@@ -82,7 +82,7 @@
     
     .portfolio .images {
         grid-template-columns: repeat(1, 1fr);
-        gap: 0.25rem;
+        gap: 0rem;
 
         height: 200vh;
         width: 100vw;
