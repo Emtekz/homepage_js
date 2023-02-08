@@ -1,0 +1,22 @@
+/* Generelle Anpassungen der Optik */
+
+/* Gesamte Seite */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gesamter Body */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Alle Links */
+a {
+    text-decoration: none;
+}
+
+/* Alle Listenitems */
+li {
+    list-style: none;
+}
