@@ -13,10 +13,10 @@ const others = document.getElementById('others');
 function changePictures() { 
 
     // Tauscht die Querformat Bilder mit denen im Hochformat aus
-    wedding.src = 'Images/Placeholder_ver/wedding.jpg';
-    portrait.src = 'Images/Placeholder_ver/portrait.jpg';
-    events.src = 'Images/Placeholder_ver/event.jpg';
-    others.src = 'Images/Placeholder_ver/others.jpg';
+    wedding.src = 'Images/ImageCarousel/Vertikal/Wedding.jpg';
+    portrait.src = 'Images/ImageCarousel/Vertikal/Portrait.jpg';
+    events.src = 'Images/ImageCarousel/Vertikal/Event.jpg';
+    others.src = 'Images/ImageCarousel/Vertikal/Others.jpg';
 }
 
 // Wenn die Breite des Fensters kleiner als 750px ist,
