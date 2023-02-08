@@ -6,16 +6,21 @@
 // Alle Bilder (einzeln) wählen
 const wedding = document.getElementById('wedding');
 const portrait = document.getElementById('portrait');
-const event = document.getElementById('event');
+const events = document.getElementById('event');
 const others = document.getElementById('others');
 
 // ---- Funktion ----
-function changePictures() {
-    if (screen.width < 750){
-        wedding.src = "Images/Placeholder_ver/wedding.jpg";
+function changePictures() { 
 
-        console.log(screen.width);
-    }
+    // Tauscht die Querformat Bilder mit denen im Hochformat aus
+    wedding.src = 'Images/Placeholder_ver/wedding.jpg';
+    portrait.src = 'Images/Placeholder_ver/portrait.jpg';
+    events.src = 'Images/Placeholder_ver/event.jpg';
+    others.src = 'Images/Placeholder_ver/others.jpg';
 }
 
-changePictures();
+// Wenn die Breite des Fensters kleiner als 750px ist,
+// wird die Funktion ausgeführt
+if(window.innerWidth < 750) {
+    changePictures();
+}
