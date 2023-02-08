@@ -10,7 +10,7 @@
     height: var(--carousel-height);
     width: 100%;
 
-    background-color: grey;
+    background-color: var(--tertiary-color);
 }
 
 /* Karusell: Bilder/Inhalt */
