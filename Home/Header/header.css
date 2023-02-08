@@ -40,7 +40,8 @@
     font-size: 4.25rem;
     font-weight: bolder;
 
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
+    color: greenyellow;
 }
 
 /* ---- Header: Navbar ---- */
