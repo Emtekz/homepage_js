@@ -26,12 +26,18 @@
     font-size: 3rem;
 }
 
-.header .job {
+.header .surname {
     font-family: 'Caveat', cursive;
     font-size: 4.25rem;
     font-weight: bolder;
 
     color: var(--secondary-color);
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ---- Header: Navbar ---- */
@@ -84,5 +90,20 @@
 
     .navbar li {
         padding: 15px;
+        width: 100%;
+    }
+
+    .nav-link:hover li{
+        background-color: rgb(169, 169, 169, 0.25);
+    }
+}
+
+@media(max-width: 650px) {
+    .header .headline {
+        font-size: 2.5rem;
+    }
+
+    .header .surname {
+        font-size: 3.75rem;
     }
 }

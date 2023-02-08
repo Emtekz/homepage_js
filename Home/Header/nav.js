@@ -1,7 +1,7 @@
 // Funktion des Nav Menüs
 
 // ---- Variablen ----
-// Navbar + Nav Icon w#hlen
+// Navbar + Nav Icon wählen
 const navbar = document.getElementById('navbar');
 const navIcon = document.getElementById('nav-icon');
 
