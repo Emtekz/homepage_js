@@ -19,6 +19,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    overflow: hidden;
 }
 
 /* ---- Header: Überschrift ---- */
@@ -105,5 +107,23 @@
 
     .header .surname {
         font-size: 3.75rem;
+    }
+
+    .header ul {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .header .headline {
+        font-size: 2rem;
+    }
+
+    .header .surname {
+        font-size: 3.25rem;
+    }
+
+    .header ul {
+        font-size: 1.25rem;
     }
 }
