@@ -1,0 +1,85 @@
+/* Optik: Portfolio Sektion */
+
+/* ---- Variable ---- */
+:root {
+    --image-sides: 100vh;
+}
+
+/* ---- Portfolio: Allgemein ---- */
+.portfolio {
+    width: 100%;
+
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+}
+
+/* ---- Portfolio: Überschrift ---- */
+.portfolio h2 {
+    text-align: center;
+}
+
+/* ---- Portfolio: Bilder ---- */
+/* Portfolio: Alle Bilder */
+.portfolio-images {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+
+/* Portfolio: Kontent */
+.portfolio .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+
+    height: var(--image-sides);
+    min-width: 75vw;
+}
+
+.portfolio .portfolio-content {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Portfolio: Kontent Beschreibung */
+.portfolio-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.25s ease-in-out;
+}
+
+.portfolio-content h3{
+    width: 100%;
+    
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+
+    background-color: grey;
+
+    padding: 15px 0;
+
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.portfolio-content:hover h3{
+    opacity: 1;
+}
+.portfolio-content:hover {
+    filter: grayscale(50%);
+}
+
+/* ---- Responsive ---- */
+@media(max-width: 900px) {
+    .portfolio .images {
+        grid-template-columns: repeat(1, 1fr);
+        height: 300vh;
+    }
+}
