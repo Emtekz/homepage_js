@@ -1,11 +1,11 @@
 /* Optik: Bilder Karusell - Home */
 
-/* Variablen */
+/* ---- Variablen ---- */
 :root {
     --carousel-height: calc(1vh * 100);
 }
 
-/* Karusell: Allgemein */
+/* ---- Karusell: Allgemein ---- */
 .image-carousel {
     height: var(--carousel-height);
     width: 100%;
@@ -13,7 +13,7 @@
     background-color: var(--tertiary-color);
 }
 
-/* Karusell: Bilder/Inhalt */
+/* ---- Karusell: Bilder/Inhalt ---- */
 .image-carousel img {
     height: var(--carousel-height);
     width: 100%;
