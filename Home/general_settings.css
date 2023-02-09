@@ -28,6 +28,11 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 /* ---- Alle Links ---- */
 a {
     text-decoration: none;
