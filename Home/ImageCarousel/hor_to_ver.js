@@ -21,6 +21,6 @@ function changePictures() {
 
 // Wenn die Breite des Fensters kleiner als 750px ist,
 // wird die Funktion ausgeführt
-if(window.innerWidth < 951) {
+if(window.innerWidth <= 950) {
     changePictures();
 }
