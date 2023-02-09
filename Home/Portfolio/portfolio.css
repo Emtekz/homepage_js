@@ -53,6 +53,8 @@
     align-items: center;
 
     transition: 0.25s ease-in-out;
+
+    cursor: pointer;
 }
 
 .portfolio-content h3{
@@ -86,5 +88,9 @@
 
         height: 200vh;
         width: 100vw;
+    }
+
+    .portfolio-content h3{
+        opacity: 1;
     }
 }
