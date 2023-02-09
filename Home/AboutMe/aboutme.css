@@ -1,0 +1,53 @@
+/* ---- Optik: Über Mich Sektion ---- */
+
+/* ---- Über Mich: Allgemein ---- */
+.about {
+    height: fit-content;
+    width: 90%;
+
+    padding: 15px 5%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    align-items: center;
+}
+/* ---- Über Mich: Überschrift ---- */
+.about h2 {
+    grid-column: span 2;
+    text-align: center;
+
+    padding: 20px 0;
+
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+
+    box-shadow: 0px 5px 10px -6px rgba(0,0,0,0.84);
+}
+
+/* ---- Über Mich: Bild ---- */
+.about img {
+    width: 20vw;
+    height: 50vh;
+
+    object-fit: cover;
+    object-position: center;
+
+    padding: 15px 0;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+}
+
+/* ---- Über Mich: Text ---- */
+.about-text {
+    display: inline-table;
+
+    font-size: 1.25rem;
+}
+
+.about-text h3 {
+    font-size: 2rem;
+}
