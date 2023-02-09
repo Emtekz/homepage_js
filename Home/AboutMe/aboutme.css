@@ -75,6 +75,13 @@
     }
 
     .about img{
-        width: 30vw;
+        width: 50%;
+        /* height: 50vh; */
     }
 }
+
+@media (max-width: 600px) {
+    .about img{
+        width: 100%;
+    }
+} 
