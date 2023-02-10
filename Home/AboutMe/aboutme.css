@@ -30,18 +30,18 @@
 
 /* ---- Über Mich: Bild ---- */
 .about img {
-    width: 20vw;
+    width: 22vw;
     height: 50vh;
 
     object-fit: cover;
     object-position: center;
-
-    padding: 15px 0;
 }
 
 .about-image {
     display: flex;
     justify-content: center;
+
+    padding: 15px 0;
 }
 
 /* ---- Über Mich: Text ---- */
@@ -64,7 +64,12 @@
 
 @media (max-width: 1100px) {
     .about img {
-        height: 30vh;
+        height: 35vh;
+        width: 25vw;
+    }
+
+    .about-text {
+        padding: 15px 0;
     }
 } 
 
@@ -75,11 +80,24 @@
 
     .about h2 {
         grid-column: span 1;
+
+        font-size: 3rem;
     }
 
     .about img{
         width: 50%;
         height: 40vh;
+    }
+
+    .about-text {
+        font-size: 1.15rem;
+
+        padding: 15px 0;
+    }
+
+    .about-text h3 {
+        font-size: 1.75rem;
+        text-align: center;
     }
 }
 
