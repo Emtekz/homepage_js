@@ -6,7 +6,7 @@
     width: 90%;
 
     background-color: var(--primary-color);
-    border-bottom: .5px solid grey;
+    border-bottom: .5px solid rgb(128, 128, 128, 0.25);
 
     padding: 15px 5%;
 
@@ -107,5 +107,10 @@
         height: 30vh;
 
         object-position: center;
+    }
+
+    .about h2 {
+        font-size: 2.5rem;
+        letter-spacing: 3px;
     }
 } 
