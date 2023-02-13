@@ -2,7 +2,7 @@
 
 /* ---- Variablen ---- */
 :root {
-    --icons-height: 20vh;
+    --icons-height: 15vh;
 }
 
 /* Kontakt: Allgemein */
@@ -74,7 +74,7 @@
     }
 
     .socials img {
-        height: 15vh;
+        height: calc(var(--icons-height) - 5vh);
     }
 
     .socials h3 {
@@ -88,6 +88,6 @@
     }
 
     .socials img {
-        height: 10vh;
+        height: calc(var(--icons-height) - 10vh);
     }
 }
