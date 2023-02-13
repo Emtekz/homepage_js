@@ -86,4 +86,8 @@
     .socials h3 {
         font-size: 1rem;
     }
+
+    .socials img {
+        height: 10vh;
+    }
 }
