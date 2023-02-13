@@ -80,6 +80,17 @@
     .socials h3 {
         font-size: 1.25rem;
     }
+
+    .socials h2 {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .socials h2 {
+        font-size: 2.5rem;
+        letter-spacing: 3px;
+    }
 }
 
 @media(max-width: 499px) {
@@ -87,7 +98,7 @@
         font-size: 1rem;
     }
 
-    .socials img {
-        /* height: calc(var(--icons-height) - 10vh); */
-    }
+    /*.socials img {
+         height: calc(var(--icons-height) - 10vh); 
+    }*/
 }
