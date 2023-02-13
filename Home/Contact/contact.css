@@ -88,6 +88,6 @@
     }
 
     .socials img {
-        height: calc(var(--icons-height) - 10vh);
+        /* height: calc(var(--icons-height) - 10vh); */
     }
 }
