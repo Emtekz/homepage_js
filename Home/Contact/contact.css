@@ -11,6 +11,8 @@
 
     width: 90%;
     padding: 15px 5%;
+
+    border-bottom: .5px solid rgb(128, 128, 128, 0.25);
 }
 
 /* Kontakt: Überschrift */
