@@ -1,0 +1,64 @@
+/* Optik: Kontakt Sektion */
+
+/* ---- Variablen ---- */
+:root {
+    --icons-height: 20vh;
+}
+
+/* Kontakt: Allgemein */
+.contact {
+    background-color: var(--primary-color);
+
+    width: 90%;
+    padding: 15px 5%;
+}
+
+/* Kontakt: Überschrift */
+.contact h2 {
+    text-align: center;
+
+    padding: 20px 0;
+
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+
+    box-shadow: 0px 5px 10px -6px rgba(0,0,0,0.84);
+}
+
+/* Kontakt: Social Icons */
+.contact .socials {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    row-gap: 3rem;
+
+    place-items: center;
+
+    text-align: center;
+
+    padding: 20px 0;
+}
+
+.socials img {
+    height: var(--icons-height);
+
+    filter: grayscale(100%);
+
+    transition: all .3s ease-in-out;
+}
+
+.socials h3 {
+    color: var(--text-color);
+
+    transition: all .3s ease-in-out;
+}
+
+.socials a:hover img {
+    filter: grayscale(0%);
+}
+
+.socials a:hover h3 {
+    color: var(--hover-color);
+}

@@ -10,6 +10,8 @@
     width: 100%;
 
     background-color: var(--primary-color);
+
+    border-bottom: .5px solid rgb(128, 128, 128, 0.25);
 }
 
 /* ---- Portfolio: Überschrift ---- */
