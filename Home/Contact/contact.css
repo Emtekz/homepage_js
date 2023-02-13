@@ -52,6 +52,8 @@
 .socials h3 {
     color: var(--text-color);
 
+    font-size: 1.75rem;
+
     transition: all .3s ease-in-out;
 }
 
@@ -61,4 +63,15 @@
 
 .socials a:hover h3 {
     color: var(--hover-color);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+    .socials img {
+        height: 15vh;
+    }
+
+    .socials h3 {
+        font-size: 1.25rem;
+    }
 }
