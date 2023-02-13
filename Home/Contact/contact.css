@@ -17,12 +17,12 @@
 .contact h2 {
     text-align: center;
 
-    padding: 20px 0;
+    padding: 10px 0;
 
     font-size: 3.5rem;
     letter-spacing: 5px;
 
-    box-shadow: 0px 5px 10px -6px rgba(0,0,0,0.84);
+    box-shadow: 0px 5px 10px -6px rgba(0, 0, 0, 0.84);
 }
 
 /* Kontakt: Social Icons */
@@ -30,7 +30,7 @@
     width: 100%;
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     row-gap: 3rem;
 
@@ -38,7 +38,7 @@
 
     text-align: center;
 
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .socials img {
@@ -67,6 +67,10 @@
 
 /* ---- Responsive ---- */
 @media (max-width: 900px) {
+    .contact .socials {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .socials img {
         height: 15vh;
     }
