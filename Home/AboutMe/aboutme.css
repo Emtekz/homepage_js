@@ -44,6 +44,15 @@
     padding: 15px 0;
 }
 
+.about-image a {
+    transition: all 0.25s ease-in-out;
+}
+
+.about-image a:hover {
+    filter: opacity(.75);
+    /* filter: brightness(150%); */
+}
+
 /* ---- Über Mich: Text ---- */
 .about-text {
     display: inline-table;
