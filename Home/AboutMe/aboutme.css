@@ -44,13 +44,14 @@
     padding: 15px 0;
 }
 
-.about-image a {
+
+.about img {
     transition: all 0.25s ease-in-out;
+    cursor: pointer;
 }
 
-.about-image a:hover {
+.about-image img:hover {
     filter: opacity(.75);
-    /* filter: brightness(150%); */
 }
 
 /* ---- Über Mich: Text ---- */
