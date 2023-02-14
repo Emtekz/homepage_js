@@ -1,0 +1,17 @@
+/* Optik: Footer */
+
+/* Footer: Allgemein */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 25px 0;
+}
+
+.middle {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+    padding: 0 10vw;
+}
