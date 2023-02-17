@@ -1,0 +1,30 @@
+/*  */
+/*  */
+/*  */
+:root {
+    --object-sites: 150px;
+}
+
+/*  */
+
+.object-home {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.moving-object {
+    width: var(--object-sites);
+    height: var(--object-sites);
+
+    background-image: url("affe.png");
+    background-position: top;
+    background-size: cover;
+
+    /* border: 1px solid black; */
+    border-radius: 15px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
