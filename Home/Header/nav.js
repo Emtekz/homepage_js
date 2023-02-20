@@ -4,6 +4,7 @@
 // Navbar + Nav Icon wählen
 const navbar = document.getElementById('navbar');
 const navIcon = document.getElementById('nav-icon');
+const navContent = document.getElementById('nav-content');
 
 // Ist Navbar offen?
 let open = false;

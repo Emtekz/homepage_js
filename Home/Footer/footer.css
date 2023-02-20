@@ -2,18 +2,14 @@
 
 /* Footer: Allgemein */
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    text-align: center;
 
     padding: 25px 0;
-}
 
-.middle {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-
-    padding: 0 10vw;
+    font-size: 1rem;
 }
 
 @media (max-width: 700px) {
