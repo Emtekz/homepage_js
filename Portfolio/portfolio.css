@@ -43,3 +43,23 @@ main img {
 
     height: calc(var(--pic-height) * 2);
 }
+
+@media (max-width: 1500px) {
+    .port {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hoch-2 {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 1000px) {
+    .port {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hoch-2 {
+        grid-column: span 2;
+    }
+}
