@@ -52,6 +52,10 @@ main img {
     .hoch-2 {
         grid-column: span 2;
     }
+
+    main img {
+        height: 35vh;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -61,5 +65,9 @@ main img {
 
     .hoch-2 {
         grid-column: span 2;
+    }
+
+    main img {
+        height: 20vh;
     }
 }
