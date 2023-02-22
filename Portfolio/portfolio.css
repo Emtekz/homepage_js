@@ -1,16 +1,45 @@
 /* Optik: Subpage - Portfolio */
 
+/* Variablen */
+:root {
+    --pic-height: 50vh;
+}
+
 /* Portfolio: Allgemein */
-main {
+.port {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: .25rem;
+
+    margin: 0 5%;
+
+    padding: 35px 0;
+  
+    border-bottom: 1px solid grey;
+}
+
+.portrait {
+    margin-top: calc(10vh + 20px);
+
+    padding-top: -35px;
 }
 
 /* Portfolio: Bilder */
 main img {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
 
     object-fit: cover;
     object-position: center;
+}
+
+.quer {
+    grid-column: span 2;
+}
+
+.hoch-2 {
+    grid-row: span 2;
+    grid-column: span 2;
+
+    height: calc(var(--pic-height) * 2);
 }
