@@ -84,6 +84,10 @@
     .socials h2 {
         font-size: 3rem;
     }
+
+    .socials:last-child {
+        grid-column: span 2;
+    }
 }
 
 @media(max-width: 600px) {
