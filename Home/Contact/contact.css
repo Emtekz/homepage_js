@@ -32,7 +32,7 @@
     width: 100%;
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     row-gap: 3rem;
 
@@ -97,8 +97,4 @@
     .socials h3 {
         font-size: 1rem;
     }
-
-    /*.socials img {
-         height: calc(var(--icons-height) - 10vh); 
-    }*/
 }
