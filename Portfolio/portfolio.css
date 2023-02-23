@@ -19,9 +19,16 @@
 }
 
 .portrait {
-    margin-top: calc(10vh + 20px);
 
     padding-top: -35px;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.first {
+    margin-top: calc(10vh + 35px);
 }
 
 /* Portfolio: Bilder */
