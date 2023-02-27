@@ -33,3 +33,12 @@ navIcon.addEventListener('click', () => {
     }
 } 
 );
+
+function closeNav() {
+    if (open) {
+        navbar.style.display = 'none';
+        navIcon.src = "Home/Header/Graphics/Nav_Menu.svg";
+
+        open = false;
+    }
+}
